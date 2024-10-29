@@ -20,7 +20,7 @@ function checkAnswer() {
 
     if (prediction == answer) {
         score++;
-        //console.log(`Correct! Score: ${score}`);
+        console.log(`Correct! Score: ${score}`);
         if (score <= 6) {
             backgroundImages.push(`url('assets/images/background${score}.svg')`);
             document.body.style.backgroundImage = backgroundImages;
